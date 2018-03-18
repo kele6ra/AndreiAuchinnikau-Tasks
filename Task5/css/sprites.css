@@ -1,0 +1,97 @@
+.sprite {
+    width: 80px;
+    height: 80px;
+    background: url("../img/spice-social-gadget-sprite.png") no-repeat;
+    display: inline-flex;
+    overflow: hidden;
+    transform-origin: 0 0;
+    transform: scale(0.5);
+    -moz-transform:scale(0.5);
+    -moz-transform-origin: 0 0;
+    z-index:2;
+}
+
+.sprite.facebook-grey {
+    background-position: -2px -2px;
+ }
+ .sprite.flickr-grey {
+    background-position: -86px -2px;
+ }
+ .sprite.dribbble-grey {
+    background-position: -170px -2px;
+ }
+ .sprite.google-grey {
+    background-position: -254px -2px;
+ }
+ .sprite.linkedin-grey {
+    background-position: -338px -2px;
+ }
+ .sprite.pinterest-grey {
+    background-position: -422px -2px;
+ }
+ .sprite.news-grey {
+    background-position: -506px -2px;
+ }
+ .sprite.skype-grey {
+    background-position: -590px -2px;
+ }
+ .sprite.twitter-grey {
+    background-position: -674px -2px;
+ }
+
+  .sprite.facebook-color {
+    background-position: -2px -86px;
+ }
+ .sprite.flickr-color {
+    background-position: -86px -86px;
+ }
+ .sprite.dribbble-color {
+    background-position: -170px -86px;
+ }
+ .sprite.google-color {
+    background-position: -254px -86px;
+ }
+ .sprite.linkedin-color {
+    background-position: -338px -86px;
+ }
+ .sprite.pinterest-color {
+    background-position: -422px -86px;
+ }
+ .sprite.news-color {
+    background-position: -506px -86px;
+ }
+ .sprite.skype-color {
+    background-position: -590px -86px;
+ }
+ .sprite.twitter-color {
+    background-position: -674px -86px;
+ }
+
+
+ .sprite.facebook-black {
+    background-position: -2px -170px;
+ }
+ .sprite.flickr-black {
+    background-position: -86px -170px;
+ }
+ .sprite.dribbble-black {
+    background-position: -170px -170px;
+ }
+ .sprite.google-black {
+    background-position: -254px -170px;
+ }
+ .sprite.linkedin-black {
+    background-position: -338px -170px;
+ }
+ .sprite.pinterest-black {
+    background-position: -422px -170px;
+ }
+ .sprite.news-black {
+    background-position: -506px -170px;
+ }
+ .sprite.skype-black {
+    background-position: -590px -170px;
+ }
+ .sprite.twitter-black {
+    background-position: -674px -170px;
+ }
