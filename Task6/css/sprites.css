@@ -1,96 +1,100 @@
-.sprite {
+.t6-sprite {
+    background: url("../img/spice-social-gadget-sprite.png") no-repeat;
+}
+.t6-sprite_size_m{
     width: 80px;
     height: 80px;
-    background: url("../img/spice-social-gadget-sprite.png") no-repeat;
     display: inline-flex;
     overflow: hidden;
     transform-origin: 0 0;
     transform: scale(0.5);
     -moz-transform:scale(0.5);
     -moz-transform-origin: 0 0;
+    z-index:2;
+    margin:-6px;
 }
 
-.sprite.facebook-grey {
+.t6-sprite__facebook_theme_grey {
     background-position: -2px -2px;
  }
- .sprite.flickr-grey {
+ .t6-sprite__flickr_theme_grey {
     background-position: -86px -2px;
  }
- .sprite.dribbble-grey {
+ .t6-sprite__dribbble_theme_grey {
     background-position: -170px -2px;
  }
- .sprite.google-grey {
+ .t6-sprite__google_theme_grey {
     background-position: -254px -2px;
  }
- .sprite.linkedin-grey {
+ .t6-sprite__linkedin_theme_grey {
     background-position: -338px -2px;
  }
- .sprite.pinterest-grey {
+ .t6-sprite__pinterest_theme_grey {
     background-position: -422px -2px;
  }
- .sprite.news-grey {
+ .t6-sprite__news_theme_grey {
     background-position: -506px -2px;
  }
- .sprite.skype-grey {
+ .t6-sprite__skype_theme_grey {
     background-position: -590px -2px;
  }
- .sprite.twitter-grey {
+ .t6-sprite__twitter_theme_grey {
     background-position: -674px -2px;
  }
 
-  .sprite.facebook-color {
+.t6-sprite__facebook_theme_color {
     background-position: -2px -86px;
  }
- .sprite.flickr-color {
+ .t6-sprite__flickr_theme_color {
     background-position: -86px -86px;
  }
- .sprite.dribbble-color {
+ .t6-sprite__dribbble_theme_color {
     background-position: -170px -86px;
  }
- .sprite.google-color {
+ .t6-sprite__google_theme_color {
     background-position: -254px -86px;
  }
- .sprite.linkedin-color {
+ .t6-sprite__linkedin_theme_color {
     background-position: -338px -86px;
  }
- .sprite.pinterest-color {
+ .t6-sprite__pinterest_theme_color {
     background-position: -422px -86px;
  }
- .sprite.news-color {
+ .t6-sprite__news_theme_color {
     background-position: -506px -86px;
  }
- .sprite.skype-color {
+ .t6-sprite__skype_theme_color {
     background-position: -590px -86px;
  }
- .sprite.twitter-color {
+ .t6-sprite__twitter_theme_color {
     background-position: -674px -86px;
  }
 
 
- .sprite.facebook-black {
+ .t6-sprite__facebook_theme_black {
     background-position: -2px -170px;
  }
- .sprite.flickr-black {
+ .t6-sprite__flickr_theme_black {
     background-position: -86px -170px;
  }
- .sprite.dribbble-black {
+ .t6-sprite__dribbble_theme_black {
     background-position: -170px -170px;
  }
- .sprite.google-black {
+ .t6-sprite__google_theme_black {
     background-position: -254px -170px;
  }
- .sprite.linkedin-black {
+ .t6-sprite__linkedin_theme_black {
     background-position: -338px -170px;
  }
- .sprite.pinterest-black {
+ .t6-sprite__pinterest_theme_black {
     background-position: -422px -170px;
  }
- .sprite.news-black {
+ .t6-sprite__news_theme_black {
     background-position: -506px -170px;
  }
- .sprite.skype-black {
+ .t6-sprite__skype_theme_black {
     background-position: -590px -170px;
  }
- .sprite.twitter-black {
+ .t6-sprite__twitter_theme_black {
     background-position: -674px -170px;
  }
