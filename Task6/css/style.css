@@ -76,6 +76,7 @@
     color: transparent; 
     background: url(../img/textpattern.jpg);
     background-clip: text;
+    -webkit-background-clip:text;
     background-size: 7%; 
 }
 
