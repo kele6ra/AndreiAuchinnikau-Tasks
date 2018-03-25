@@ -1,0 +1,378 @@
+.fphc-content{
+    font-family: "Source Sans Pro",sans-serif,Verdana;
+}
+
+.fphc-content__layer{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch;
+    width: 100%;
+}
+
+.fphc-header__nav{
+    position: fixed;
+    width: 100%;
+}
+
+.fphc-header__layer{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    width: 100%;
+    background: #f0e2d7;
+}
+
+.fphc-header__home{
+    background: url('../img/5.jpg') no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    width: 50%;
+    height: 100vh;
+    background-attachment: scroll;
+}
+
+.fphc-header__intro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+}
+
+.fphc-header__intro-text{
+    margin: 0 45px; 
+}
+
+.fphc-header__start-btn{
+    margin-top:70px;
+    margin-left:45px;
+}
+
+.fphc-nav{
+    
+}
+
+.fphc-nav__layer{
+    display: flex;
+    align-content: center;
+    justify-content:center;
+    min-height: 95px;
+    width: 100vw;
+}
+
+.fphc-nav__bar{
+    display: flex;
+    align-content: center;
+    justify-content:space-between;
+    width: 60vw;
+}
+
+.fphc-nav__list{
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+}
+
+.fphc-nav__list-element{
+    margin:15px;
+}
+
+.fphc-textbox{
+
+}
+
+.fphc-textbox__layer{
+    display: flex;
+    flex-direction: column;
+}
+
+.fphc-textbox__normal{
+    margin-bottom:10px;
+    line-height: 28px;
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: 0.2px;
+}
+
+.fphc-textbox__normal_header{
+    margin-bottom: 32px;
+}
+
+.fphc-textbox__medium{
+    margin-bottom:10px;
+    line-height: 30px;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.fphc-textbox__large{
+    margin: 20px 0 16px;
+    line-height: 32px;
+    font-size: 26px;
+    font-weight: 300;    
+}
+
+.fphc-textbox__xlarge{
+    margin: 20px 0;
+    line-height: 45px;
+    font-size: 48px;
+    font-weight: 300;
+}
+
+.fphc-textbox_uppercase{
+    line-height: 24px;
+    font-size: 12px;
+    font-weight: normal;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.fphc-textbox_text-centering{
+    text-align: center;
+}
+
+.fphc-textbox_theme-gold{
+    color:#e4ae58;
+}
+
+.fphc-textbox_theme-white{
+    color:#FFF;
+}
+
+.fphc-textbox_theme-black{
+    color:#000;
+}
+
+.fphc-textbox_theme-darkgrey{
+    color:#333;
+}
+
+.fphc-textbox_theme-lightgrey{
+    color:#888;
+}
+
+.fphc-btn{
+    background: inherit;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+.fphc-btn__layer{
+    align-self: center;
+}
+
+.fphc-btn_simple{
+    color: #666;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    line-height: 40px;
+}
+
+.fphc-btn_simple:hover, :focus{
+    color: #e4ae58;
+}
+
+.fphc-btn_theme-label{
+    color: #333;
+    text-shadow: 1px 1px #fff;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 35px;
+    letter-spacing: 1px;
+}
+
+.fphc-btn_theme-start{
+    border: 3px solid #333;
+    border-radius: 100px;
+    color: #333;
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 1.6px;
+    padding: 15px 40px;
+    text-transform: uppercase;
+}
+
+
+.fphc-main{
+
+
+}
+
+.fphc-main__layer{
+    display:flex;
+    flex-direction: column;
+}
+
+.fphc-main__row{
+    display:flex;
+    flex-direction: row;
+    width:100%;
+}
+
+.fphc-main__about{
+    display:flex;
+    flex-direction: row;
+    width:50vw;
+    height: 350px;
+}
+
+.fphc-main__about-text{
+    display:flex;
+    flex-direction: column;
+    margin: 22px 38px 32px;
+    height: 350px;
+}
+
+.fphc-main__skills{
+    display:flex;
+    flex-direction: row;
+    width: 50vw;
+    height: 100%;
+}
+
+.fphc-main__skills-img{
+    width:50%;
+    background: url('../img/1.jpg') no-repeat;
+    background-position: 50% 0;
+    background-attachment: scroll;
+}
+
+.fphc-main__skills-view{
+    width: 50%;
+    background: #e4ae58;
+}
+
+.fphc-main__skills-details{
+    width: 25%;
+    height: 300px;
+}
+
+.fphc-main__skills-details-text{
+    display: flex;
+    flex-direction: column;
+    margin: 52px 40px;
+}
+
+.fphc-main__skills-details_gold{
+    background-color: #e4ae58;
+}
+
+.fphc-main__skills-details_orange{
+    background-color: #e9714c;
+}
+
+.fphc-main__skills-details_black{
+    background-color: #000;
+}
+
+.fphc-main__exp-img{
+    width: 50%;
+    height: 400px;
+    background: url('../img/4.jpg') no-repeat;
+    background-position: 50% 0;
+    background-attachment: scroll;
+}
+
+.fphc-main__exp-text{
+    width: 50%;
+    height: 400px;
+    background-color: #e9714c;
+}
+
+.fphc-main__edu-img{
+    width: 50%;
+    height: 400px;
+    background: url('../img/3.jpg') no-repeat;
+    background-position: 50% 0;
+    background-attachment: scroll;
+}
+
+.fphc-main__edu-text{
+    width: 50%;
+    height: 400px;
+    background-color: #e4ae58;
+}
+
+.fphc-main__testimonial-text{
+    width: 100%;
+    height: 480px;
+    background: url('../img/6.jpg') no-repeat;
+    background-position: 50% 50%;
+    background-attachment: scroll;
+    background-size: cover;
+}
+
+.fphc-main__feedback{
+    width: 50%;
+    height: 600px;
+    background-color: #e9714c;
+}
+
+.fphc-main__feedback-img{
+    width: 25%;
+    height: 600px;
+    background: url('../img/2.jpg') no-repeat;
+    background-position: 50% 50%;
+    background-attachment: scroll;
+    background-size: cover;
+}
+
+.fphc-main__contact{
+    width: 25%;
+    height: 600px;
+    background-color: #000;
+}
+
+.fphc-progress-bar{
+
+}
+
+.fphc-progress-bar__layer{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.fphc-progress-bar__legend{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.fphc-progress-bar__text{
+    font-size: 14px;
+    font-weight: bold;
+    color: #000;
+}
+
+.fphc-progress-bar__text_white{
+    color: #FFF;
+}
+
+.fphc-progress-bar__element{
+    margin-bottom: 20px;
+    margin-top: 10px;
+    width: 100%;
+    height: 2px;
+    -webkit-appearance: none;
+}
+
+.fphc-progress-bar__element::-moz-progress-bar{
+    background-color: #000;
+}
+
+.fphc-progress-bar__element::-webkit-progress-value{
+    background-color: #000;
+}
+
+.fphc-progress-bar__element::-webkit-progress-bar{
+    background-color: #FFF;
+}
+
+
+.fphc-content__footer{
+    width: 100%;
+    height: 400px;
+}
