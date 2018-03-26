@@ -1,0 +1,41 @@
+.fphc-progress-bar__layer{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.fphc-progress-bar__legend{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.fphc-progress-bar__text{
+    font-size: 0.875rem;
+    font-weight: bold;
+    color: #000;
+}
+
+.fphc-progress-bar__text_white{
+    color: #FFF;
+}
+
+.fphc-progress-bar__element{
+    margin-bottom: 20px;
+    margin-top: 10px;
+    width: 100%;
+    height: 2px;
+    -webkit-appearance: none;
+}
+
+.fphc-progress-bar__element::-moz-progress-bar{
+    background-color: #000;
+}
+
+.fphc-progress-bar__element::-webkit-progress-value{
+    background-color: #000;
+}
+
+.fphc-progress-bar__element::-webkit-progress-bar{
+    background-color: #FFF;
+}

@@ -18,7 +18,9 @@ time, mark, audio, video, button, progress {
 	font: inherit;
 	vertical-align: baseline;
 	text-decoration: none;
+	scroll-behavior: smooth;
 }
+
 strong,b{
 	font-weight: normal;
 }

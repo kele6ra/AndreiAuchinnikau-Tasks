@@ -1,0 +1,23 @@
+.fphc-nav__layer{
+    display: flex;
+    align-content: center;
+    justify-content:center;
+    min-height: 95px;
+    width: 100%;
+}
+
+.fphc-nav__bar{
+    display: flex;
+    align-content: center;
+    justify-content:space-between;
+}
+
+.fphc-nav__list{
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+}
+
+.fphc-nav__list-element{
+    margin: 0 15px;
+}
