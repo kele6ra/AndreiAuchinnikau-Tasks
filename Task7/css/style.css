@@ -59,7 +59,7 @@
     align-content: center;
     justify-content:center;
     min-height: 95px;
-    width: 100vw;
+    width: 100%;
 }
 
 .fphc-nav__bar{
@@ -213,7 +213,9 @@
 }
 
 .fphc-btn__layer{
-    align-self: center;
+    display: flex;
+
+    align-items: center;
 }
 
 .fphc-btn_simple{
@@ -270,20 +272,20 @@
     display:flex;
     flex-direction: row;
     width:50vw;
-    height: 350px;
+    min-height: 350px;
 }
 
 .fphc-main__about-text{
     display:flex;
     flex-direction: column;
     margin: 22px 38px 32px;
-    height: 350px;
+    min-height: 350px;
 }
 
 .fphc-main__skills{
     display:flex;
     flex-direction: row;
-    width: 50vw;
+    width: 50%;
     height: 100%;
 }
 
@@ -302,7 +304,7 @@
 
 .fphc-main__skills-details{
     width: 25%;
-    height: 300px;
+    min-height: 300px;
 }
 
 .fphc-main__skills-details-text{
@@ -325,7 +327,7 @@
 
 .fphc-main__exp-img{
     width: 50%;
-    height: 400px;
+    min-height: 400px;
     background: url('../img/4.jpg') no-repeat;
     background-position: 50% 0;
     background-attachment: scroll;
@@ -334,7 +336,7 @@
 
 .fphc-main__exp-text{
     width: 50%;
-    height: 400px;
+    min-height: 400px;
     background-color: #e9714c;
 }
 .fphc-main__exp-text-layer{
@@ -347,7 +349,7 @@
 
 .fphc-main__edu-img{
     width: 50%;
-    height: 400px;
+    min-height: 400px;
     background: url('../img/3.jpg') no-repeat;
     background-position: 50% 0;
     background-attachment: scroll;
@@ -356,19 +358,18 @@
 
 .fphc-main__edu-text{
     width: 50%;
-    height: 400px;
+    min-height: 400px;
     background-color: #e4ae58;
 }
 
 .fphc-main__testimonial{
     width: 100%;
-    height: 480px;
+    min-height: 480px;
     background: url('../img/6.jpg') no-repeat;
     background-position: 50% 50%;
     background-attachment: scroll;
     background-size: cover;
     position:relative;
-    
 }
 
 .fphc-main__testimonial-layer{
@@ -384,14 +385,13 @@
 
 .fphc-main__testimonial-text{
     width: 50%;
-    height: 50%;
 }
 
 .fphc-main__feedback{
     display: flex;
     flex-direction: column;
     width: 50%;
-    height: 750px;
+    min-height: 750px;
     background-color: #e9714c;
 }
 
@@ -407,7 +407,7 @@
 
 .fphc-main__feedback-img{
     width: 25%;
-    height: 750px;
+    height: 100%;
     background: url('../img/2.jpg') no-repeat;
     background-position: 50% 50%;
     background-attachment: scroll;
@@ -416,7 +416,7 @@
 
 .fphc-main__contact-info{
     width: 25%;
-    height: 750px;
+    height: 100%;
     background-color: #161616;
 }
 
@@ -521,7 +521,7 @@
 
 .fphc-content__footer{
     width: 100%;
-    height: 400px;
+    min-height: 400px;
 }
 
 .fphc-footer{
