@@ -109,13 +109,11 @@
 .t6-main__element-row{
     margin-top: 7px;
 }
-
 .t6-button{
     font-family:Arial, Times, Courier;
     font-weight:bold;
     color: #FFF;
 }
-
 .t6-button__layer{
     position: relative;
     border-radius: 3px;
@@ -175,7 +173,6 @@
     background-image: linear-gradient(to top, #e956ab 0%, #e52094 100%);
     text-shadow: 0 0 1px #c40877;
 }
-
 .t6-button_theme-pink::before{
     background-image: linear-gradient(to top, #e743a3 0%, #c40877 100%);
     box-shadow: 0 0 1px #d185b2;
