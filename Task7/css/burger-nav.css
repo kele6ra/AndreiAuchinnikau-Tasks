@@ -1,0 +1,38 @@
+.fphc-burger-nav{
+    cursor: pointer;
+}
+
+.fphc-burger-nav__sum{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 10px;
+}
+
+.fphc-burger-nav__sum::-webkit-details-marker {
+    display: none;
+}
+
+.fphc-burger-nav__sum:before{
+    content: "\2630";
+    color: #888;
+    font-size: 2rem;
+}
+
+.fphc-burger-nav[open] .fphc-burger-nav__sum:before{
+    display: none;
+}
+
+.fphc-burger-nav__sum:focus{
+    outline: 0;
+}
+
+.fphc-burger-nav__sum_black-theme{
+    color: #888;
+    text-shadow: 1px 1px #000;
+    font-weight: bold;
+    font-size: 1.5rem;
+    line-height: 1.45;
+    letter-spacing: 0.0417em;
+    background: none;
+}

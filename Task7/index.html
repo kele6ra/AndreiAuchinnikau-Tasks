@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/burger-nav.css">
     <link rel="stylesheet" href="css/btn.css">
     <link rel="stylesheet" href="css/textbox.css">
     <link rel="stylesheet" href="css/main.css">
@@ -23,17 +24,12 @@
     <div class="fphc-content">
         <div class="fphc-content__layer">
             <header class="fphc-header" id="home">
-                <div class="fphc-header__layer">
-
-                    <div class="fphc-header__home">
-                        <div class="fphc-header__logo">
-                            <a href="#" class="fphc-btn fphc-btn__layer fphc-btn_theme-label">Stimulus</a>
-                        </div>
-                    </div>
-                    <div class="fphc-header__intro">
-
-
-                        <div class="fphc-header__nav">
+                <div class="fphc_header__top-layer">
+                    <div class="fphc-header__burger-nav">
+                        <details class="fphc-burger-nav">
+                            <summary class="fphc-burger-nav__sum">
+                                <span class="fphc-burger-nav__sum_black-theme">Stimulus</span>
+                            </summary>
                             <nav class="fphc-nav">
                                 <div class="fphc-nav__layer">
                                     <div class="fphc-nav__bar">
@@ -42,7 +38,7 @@
                                                 <a href="#home" class="fphc-btn fphc-btn_simple">Home</a>
                                             </li>
                                             <li class="fphc-nav__list-element">
-                                                <a href="#about" class="fphc-btn fphc-btn_simple">About&nbspMe</a>
+                                                <a href="#about" class="fphc-btn fphc-btn_simple">About&nbsp;Me</a>
                                             </li>
                                             <li class="fphc-nav__list-element">
                                                 <a href="#exp" class="fphc-btn fphc-btn_simple">Experiences</a>
@@ -57,16 +53,49 @@
                                     </div>
                                 </div>
                             </nav>
-                        </div>
+                        </details>
+                    </div>
+                    <div class="fphc-header__logo">
+                        <a href="#" class="fphc-btn fphc-btn__layer fphc-btn_theme-label">Stimulus</a>
+                    </div>
+                    <div class="fphc-header__nav">
+                        <nav class="fphc-nav">
+                            <div class="fphc-nav__layer">
+                                <div class="fphc-nav__bar">
+                                    <ul class="fphc-nav__list">
+                                        <li class="fphc-nav__list-element">
+                                            <a href="#home" class="fphc-btn fphc-btn_simple">Home</a>
+                                        </li>
+                                        <li class="fphc-nav__list-element">
+                                            <a href="#about" class="fphc-btn fphc-btn_simple">About&nbsp;Me</a>
+                                        </li>
+                                        <li class="fphc-nav__list-element">
+                                            <a href="#exp" class="fphc-btn fphc-btn_simple">Experiences</a>
+                                        </li>
+                                        <li class="fphc-nav__list-element">
+                                            <a href="#testimonial" class="fphc-btn fphc-btn_simple">Testimonial</a>
+                                        </li>
+                                        <li class="fphc-nav__list-element">
+                                            <a href="#contact" class="fphc-btn fphc-btn_simple">Contact</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
 
 
-
+                <div class="fphc-header__layer">
+                    <div class="fphc-header__home">
+                    </div>
+                    <div class="fphc-header__intro">
                         <div class="fphc-header__intro-text">
                             <div class="fphc-textbox">
                                 <div class="fphc-textbox__layer">
                                     <span class="fphc-textbox__normal fphc-textbox_uppercase fphc-textbox_theme-lightgrey fphc-textbox_text-semibold">welcome to my website</span>
                                     <span class="fphc-textbox__xlarge fphc-textbox_theme-darkgrey">Hello, I am
-                                        <strong>Stimulus</strong> currently based in New&nbspYork city.</span>
+                                        <strong>Stimulus</strong> currently based in New&nbsp;York city.</span>
                                     <span class="fphc-textbox__normal fphc-textbox_theme-lightgrey">Donec auctor arcu at efficitur lacinia. Praesent bibendum efficitur ipsum, et mattis
                                         tellus interdum in. Ut a dictum purus. Vestibulum non pellentesque felis, sed dignissim
                                         urna. Vestibulum id accumsan quam.
@@ -78,7 +107,6 @@
                             <a href="#about" class="fphc-btn fphc-btn_theme-start">Get Started</a>
                         </div>
                     </div>
-
                 </div>
             </header>
 
@@ -217,7 +245,7 @@
                                             </span>
                                             <div class="fphc-textbox__layer">
                                                 <span class="fphc-textbox__large fphc-textbox_theme-white">Graphic Designer
-                                                    <span class="fphc-textbox__normal fphc-textbox_theme-red fphc-textbox_text-bold">2014&nbspJul&nbsp-&nbsp2015&nbspSep</span>
+                                                    <span class="fphc-textbox__normal fphc-textbox_theme-red fphc-textbox_text-bold">2014&nbsp;Jul&nbsp;-&nbsp;2015&nbsp;Sep</span>
                                                 </span>
                                                 <span class="fphc-textbox__normal fphc-textbox_theme-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</span>
                                             </div>
@@ -229,7 +257,7 @@
                                             </span>
                                             <div class="fphc-textbox__layer">
                                                 <span class="fphc-textbox__large fphc-textbox_theme-white">Web Designer
-                                                    <span class="fphc-textbox__normal fphc-textbox_theme-red fphc-textbox_text-bold">2015&nbspOct&nbsp-&nbsp2017&nbspJan</span>
+                                                    <span class="fphc-textbox__normal fphc-textbox_theme-red fphc-textbox_text-bold">2015&nbsp;Oct&nbsp;-&nbsp;2017&nbsp;Jan</span>
                                                 </span>
                                                 <span class="fphc-textbox__normal fphc-textbox_theme-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</span>
                                             </div>
@@ -255,7 +283,7 @@
                                         </span>
                                         <div class="fphc-textbox__layer">
                                             <span class="fphc-textbox__large fphc-textbox_theme-white">Master in Design
-                                                <span class="fphc-textbox__normal fphc-textbox_theme-darkgold fphc-textbox_text-bold">2012&nbspJan&nbsp-&nbsp2014&nbspMay</span>
+                                                <span class="fphc-textbox__normal fphc-textbox_theme-darkgold fphc-textbox_text-bold">2012&nbsp;Jan&nbsp;-&nbsp;2014&nbsp;May</span>
                                             </span>
                                             <span class="fphc-textbox__normal fphc-textbox_theme-white">Etiam iaculis elit in mauris ullamcorper auctor. Proin a sapien id orci ullamcorper
                                                 dignissim eu in neque.</span>
@@ -268,7 +296,7 @@
                                         </span>
                                         <div class="fphc-textbox__layer">
                                             <span class="fphc-textbox__large fphc-textbox_theme-white">Bachelor of Arts
-                                                <span class="fphc-textbox__normal fphc-textbox_theme-darkgold fphc-textbox_text-bold">2008&nbspMay&nbsp-&nbsp2011</span>
+                                                <span class="fphc-textbox__normal fphc-textbox_theme-darkgold fphc-textbox_text-bold">2008&nbsp;May&nbsp;-&nbsp;2011</span>
                                             </span>
                                             <span class="fphc-textbox__normal fphc-textbox_theme-white">Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus
                                                 mus.
@@ -358,8 +386,8 @@
             <footer class="fphc-content__footer">
                 <div class="fphc-content__footer-copyright">
                     <div class="fphc-textbox">
-                        <div class="fphc-textbox__layer">
-                            <div class="fphc-textbox__normal fphc-textbox__large_header fphc-textbox_theme-lightgrey">Copyright © 2018 Your Company | Design:
+                        <div class="fphc-textbox__layer-copyright">
+                            <div class="fphc-textbox__normal fphc-textbox__large_header fphc-textbox_theme-lightgrey">Copyright © 2018 Your&nbsp;Company | Design:
                                 <a href="company.co" class="fphc-textbox_theme-gold">templatemo</a>
                             </div>
                         </div>

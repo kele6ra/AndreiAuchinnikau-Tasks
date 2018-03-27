@@ -37,6 +37,14 @@
     min-height: 30px;
 }
 
+@media screen and (max-width: 400px) {
+    .fphc-content__footer-copyright {
+        display: flex;
+        width: 70%;
+        justify-content: center;
+    }
+}
+
 .fphc-content__footer-socials{
     display: flex;
     justify-content: space-between;
