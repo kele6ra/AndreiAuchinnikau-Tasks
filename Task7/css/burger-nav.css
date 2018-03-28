@@ -15,7 +15,8 @@
 
 .fphc-burger-nav__sum:before {
     content: "\2630";
-    color: #888;
+    color: #333;
+    text-shadow: 1px 1px #fff;
     font-size: 2rem;
 }
 
