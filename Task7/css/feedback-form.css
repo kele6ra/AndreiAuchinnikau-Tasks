@@ -1,9 +1,9 @@
-.fphc-feedback-form__layer{
+.fphc-feedback-form__layer {
     display: flex;
     flex-direction: column;
 }
 
-.fphc-feedback-form__element{
+.fphc-feedback-form__element {
     margin: 10px 0 25px 0;
     padding: 0 0 12px 12px;
     border: 0;
@@ -11,15 +11,15 @@
     background-color: inherit;
 }
 
-.fphc-feedback-form__element::placeholder{
+.fphc-feedback-form__element::placeholder {
     opacity: 1;
-    font-family: "Source Sans Pro",sans-serif,Verdana;
+    font-family: "Source Sans Pro", sans-serif, Verdana;
     font-size: 1.125rem;
     font-weight: 300;
     color: #FFF;
 }
 
-.fphc-feedback-form__btn{
+.fphc-feedback-form__btn {
     margin-left: 15px;
     margin-top: 10px;
     min-height: 45px;
@@ -28,21 +28,13 @@
     border-radius: 25px;
     cursor: pointer;
     background-color: #FFF;
-    font-family: "Source Sans Pro",sans-serif,Verdana;
+    font-family: "Source Sans Pro", sans-serif, Verdana;
     font-size: 1.125em;
     color: #333;
     font-weight: 300;
 }
 
-@media screen and (max-width: 600px) {
-    .fphc-feedback-form__btn {
-        min-height: 45px;
-        min-width: 160px;
-        border-radius: 25px;
-    }
-}
-
-.fphc-feedback-form__btn:hover, .fphc-feedback-form__btn:focus{
+.fphc-feedback-form__btn:hover, .fphc-feedback-form__btn:focus {
     background-color: #000;
     color: #FFF;
 }

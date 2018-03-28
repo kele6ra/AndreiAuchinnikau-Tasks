@@ -1,14 +1,14 @@
-.fphc-btn{
+.fphc-btn {
     background: inherit;
     cursor: pointer;
 }
 
-.fphc-btn__layer{
+.fphc-btn__layer {
     display: flex;
     align-items: center;
 }
 
-.fphc-btn_simple{
+.fphc-btn_simple {
     color: #666;
     font-size: 0.875rem;
     font-weight: 400;
@@ -17,11 +17,11 @@
     line-height: 2.85;
 }
 
-.fphc-btn_simple:hover, .fphc-btn_simple:focus{
+.fphc-btn_simple:hover, .fphc-btn_simple:focus {
     color: #e4ae58;
 }
 
-.fphc-btn_theme-label{
+.fphc-btn_theme-label {
     color: #333;
     text-shadow: 1px 1px #fff;
     font-weight: bold;
@@ -31,7 +31,7 @@
     background: none;
 }
 
-.fphc-btn_theme-start{
+.fphc-btn_theme-start {
     border: 3px solid #333;
     border-radius: 100px;
     color: #333;
@@ -40,10 +40,4 @@
     letter-spacing: 0.123em;
     padding: 15px 40px;
     text-transform: uppercase;
-}
-
-@media screen and (max-width: 600px) {
-    .fphc-btn_theme-start{
-        padding: 5px 10px;
-    }
 }

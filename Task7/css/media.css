@@ -1,0 +1,146 @@
+@media screen and (max-width: 1024px) {
+    .fphc-header__layer {
+        flex-direction: column;
+        flex-flow: wrap;
+    }
+    .fphc-header__home {
+        width: 100%;
+    }
+    .fphc-header__intro {
+        width: 100%;
+    }
+    .fphc-main__feedback-img {
+        width: 50%;
+        min-height: 750px;
+    }
+    .fphc-main__feedback {
+        min-height: 600px;
+        width: 100%;
+    }
+    .fphc-main__contact {
+        flex-flow: wrap;
+    }
+    .fphc-main__contact-info {
+        width: 50%;
+        min-height: 400px;
+    }
+    .fphc-main__testimonial-text {
+        width: 80%;
+    }
+    .fphc-main__edu-text {
+        width: 100%;
+    }
+    .fphc-main__edu-img {
+        width: 100%;
+    }
+    .fphc-main__exp-text {
+        width: 100%;
+    }
+    .fphc-main__exp-img {
+        width: 100%;
+    }
+    .fphc-main__skills-details {
+        width: 50%;
+    }
+    .fphc-main__skills {
+        width: 100%;
+    }
+    .fphc-main__about {
+        width: 100%;
+    }
+    .fphc-main__row {
+        flex-direction: column;
+        flex-flow: wrap;
+    }
+    .fphc-content__footer-socials {
+        width: 30%;
+    }
+    .fphc-content__footer {
+        width: 100%;
+        min-height: 200px;
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 1024px) {
+    .fphc-header__logo {
+        width: 20%;
+    }
+    .fphc-header__nav {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .fphc-btn_theme-start {
+        padding: 5px 10px;
+    }
+    .fphc-feedback-form__btn {
+        min-height: 45px;
+        min-width: 160px;
+        border-radius: 25px;
+    }
+    .fphc-header__logo {
+        display: none;
+    }
+    .fphc-header__nav {
+        display: none;
+    }
+    .fphc-header__burger-nav {
+        display: flex;
+        width: 20%;
+    }
+    .fphc-header__burger-nav {
+        display: flex;
+    }
+    .fphc-nav__list {
+        flex-direction: column;
+    }
+    .fphc-header__intro-text {
+        margin: 0 10px;
+    }
+    .fphc-header__start-btn {
+        margin-top: 10px;
+    }
+    .fphc-main__feedback-img {
+        width: 100%;
+        min-height: 400px;
+    }
+    .fphc-main__feedback-form {
+        margin: 47px 47px 0 32px;
+    }
+    .fphc-main__testimonial-text {
+        width: 100%;
+    }
+    .fphc-main__testimonial {
+        min-height: 600px;
+    }
+    .fphc-main__skills-details {
+        width: 100%;
+    }
+    .fphc-main__skills-view {
+        width: 100%;
+    }
+    .fphc-main__skills-img {
+        width: 100%;
+    }
+    .fphc-main__skills {
+        width: 100%;
+        flex-direction: column;
+        flex-flow: wrap;
+    }
+    .fphc-content__footer {
+        width: 100%;
+        min-height: 100px;
+    }
+    .fphc-content__footer-socials {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .fphc-content__footer-copyright {
+        display: flex;
+        width: 70%;
+        justify-content: center;
+    }
+}
