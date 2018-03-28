@@ -28,9 +28,9 @@
     outline: 0;
 }
 
-.fphc-burger-nav__sum_black-theme {
-    color: #888;
-    text-shadow: 1px 1px #000;
+.fphc-burger-nav__sum_grey-theme {
+    color: #333;
+    text-shadow: 1px 1px #fff;
     font-weight: bold;
     font-size: 1.5rem;
     line-height: 1.45;

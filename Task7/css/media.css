@@ -128,6 +128,9 @@
         flex-direction: column;
         flex-flow: wrap;
     }
+    .fphc-main__contact-info {
+        width: 100%;
+    }
     .fphc-content__footer {
         width: 100%;
         min-height: 100px;
