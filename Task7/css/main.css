@@ -21,6 +21,7 @@
     flex-direction: column;
     margin: 22px 38px 32px;
     min-height: 350px;
+    min-width: 1px; /*ie fix*/
 }
 
 .fphc-main__skills {

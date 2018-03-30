@@ -5,6 +5,7 @@
 .fphc-textbox__layer {
     display: flex;
     flex-direction: column;
+    min-width: 1px; /*ie fix*/
 }
 
 .fphc-textbox__layer-row {
