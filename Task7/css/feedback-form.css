@@ -8,7 +8,10 @@
     padding: 0 0 12px 12px;
     border: 0;
     border-bottom: 1px solid #E3AE57;
-    background-color: inherit;
+    background-color: #e9714c;
+    overflow: auto;
+    font-family: "Source Sans Pro", sans-serif, Verdana;
+    color: #FFF;
 }
 
 .fphc-feedback-form__element::placeholder {
